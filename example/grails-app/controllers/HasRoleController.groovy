@@ -1,0 +1,4 @@
+class HasRoleController {
+
+    def index = { }
+}

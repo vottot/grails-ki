@@ -1,0 +1,4 @@
+class AuthOnlyController {
+
+    def index = { }
+}

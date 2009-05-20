@@ -1,0 +1,13 @@
+Grails Ki Plugin
+
+Creators:
+Originally developed by Peter Ledbrook
+Port and additional development undertaken by Bradley Beddoes @ Intient - http://intient.com
+
+License: 
+Apache 2.0
+
+iOverview
+This plugin extends on work done for JSecurity in Grails and integrates the API of Apache Ki (name is soon to change as asvised by Apache Incubator when a final project name is known this will change here).
+
+Currently a work in progress, see the example application for details.

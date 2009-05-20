@@ -1,0 +1,21 @@
+Example applicatin for Grails Apache Ki plugin usage.
+
+To run this app:
+Checkout entire plugin project from git repository
+In the plugin directory execute: grails package-plugin
+You should now have a grails-ki-X.Y[-SNAPSHOT].zip file
+In the example directory execute: grails install-plugin ../plugin/grails-ki-X.Y[-SNAPSHOT].zip
+The Ki plugin will install
+Run the app: grails run-app
+
+You should be presented with a URL to connect to on your localhost, open that in a browser now.
+
+3 controllers ship with this example:
+AuthOnlyController - Simply requires you to login
+HasRoleController - Protected by a security filter and requires the logged in user to have the role 'Role0'
+RequiresRoleContoller - Protected by the 'RequiresRoles' annotation, requires the logged in user to have the role 'Role1' - currently this is not working
+
+There are five test accounts provided user0 .. user5, user0 has Role0 assigned to it, likewise user1 and Role1 assigned.
+
+A simple app but hopefully a useful working example for newcomers
+

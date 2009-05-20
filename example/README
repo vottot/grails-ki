@@ -13,7 +13,7 @@ You should be presented with a URL to connect to on your localhost, open that in
 3 controllers ship with this example:
 AuthOnlyController - Simply requires you to login
 HasRoleController - Protected by a security filter and requires the logged in user to have the role 'Role0'
-RequiresRoleContoller - Protected by the 'RequiresRoles' annotation, requires the logged in user to have the role 'Role1' - currently this is not working
+RequiresRoleContoller - Protected by the 'RequiresRoles' annotation, requires the logged in user to have the role 'role1' - currently this is not working
 
 There are five test accounts provided user0 .. user5, user0 has Role0 assigned to it, likewise user1 and Role1 assigned.
 

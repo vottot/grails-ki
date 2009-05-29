@@ -80,8 +80,6 @@ class KiGrailsPlugin {
       }
 
       kiSecurityManager(DefaultWebSecurityManager) { bean ->
-          bean.destroyMethod = ""
-
           realms = realmBeans.collect { ref(it) }
 
           // Allow the user to customise the session type: 'http' or 'ki'.

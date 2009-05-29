@@ -1,3 +1,5 @@
 # Plugin files to ignore
 
-grails-ki-*.zip
+stacktrace.log
+
+checkout/**/*
